@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>HTML Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!--Google fonts-->
+		<link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;700&display=swap" rel="stylesheet"> 
+
+		<!--Element stylesheet-->
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+	<body>
+
+		<div class="top">
+			<div class="banner">
+				<div class="banner-image"><img src="images/headshot.jpg" width="100%"></div>
+				<div class="banner-name">Rachel Logan</div>
+			</div>
+			<div class="menu-bar">
+				<a class="menu-item" href="index.html" style="font-weight:bold; color:green;">Home</a>
+				<a class="menu-item" href="portfolio.html">Portfolio</a>
+				<a class="menu-item" href="bio.html">Bio</a>
+			</div>
+		</div>
+		
+		<div class="page-body">
+			<div class="body-image"><img src ="images/headshot.jpg" width="100%"></div>
+			<div class="body-bio">
+				<p>Here are a whole bunch of words about me and my experience and how
+				I turned into a journalist developer from my background of computer
+				engineering and journalism separately and how I'm like SUPER
+				compassionate and just want to save the world.</p>
+			</div>
+			<div class="body-best-links">
+				<div>Top Work Samples:</div>
+				<div class="work-sample-box">Here's one.</div>
+				<div class="work-sample-box">Here's one.</div>
+				<div class="work-sample-box">Here's one.</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<p>Copyright 2022 Rachel Logan</p>
+		</div>
+		
+		<!--React-->
+		<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+		<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorgin></script>
+		
+		<!--Load react component-->
+		<script src="react.js"></script>
+
+	</body>
+
+</html>

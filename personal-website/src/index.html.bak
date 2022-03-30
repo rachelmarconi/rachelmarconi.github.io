@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>HTML Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+
+		
+		<!--Google fonts-->
+		<link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;700&display=swap" rel="stylesheet"> 
+
+		<!--Element stylesheet-->
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+	<body>
+
+		
+		<div id="footer">
+			<p>Copyright Rachel Logan</p>
+			<p>2020</p>
+		</div>
+		
+		<!--React-->
+		<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+		<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorgin></script>
+		
+		<!--Load react component-->
+		<script src="react.js"></script>
+
+	</body>
+
+</html>

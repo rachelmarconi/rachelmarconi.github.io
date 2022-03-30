@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>HTML Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!--Google fonts-->
+		<link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;700&display=swap" rel="stylesheet"> 
+
+		<!--Element stylesheet-->
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+	<body>
+
+		<div class="top">
+			<div class="banner">
+				<div class="banner-image"><img src="images/headshot.jpg" width="100%"></div>
+				<div class="banner-name">Rachel Logan</div>
+			</div>
+			<div class="menu-bar">
+				<div class="menu-item"><a href="index.html">Home</a></div>
+				<div class="menu-item"><a href="portfolio.html" style="font-weight:bold; color:green;">Portfolio</a></div>
+				<div class="menu-item"><a href="bio.html">Bio</a></div>
+			</div>
+		</div>
+		
+		<div class="page-body">
+			<div class="work-container">
+				<div class="work-head">Work Title</div>
+				<div class="work-time">Work Time</div>
+				<div class="work-description">Work Description goes on  and on and onand on and on and on and on and on and on and on and onvand on and on and onand on v </div>
+				<div class="work-box">
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+				</div>
+			</div>
+			
+			<div class="work-container">
+				<div class="work-head">Work Title</div>
+				<div class="work-box">
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+				</div>
+			</div>
+			
+			<div class="work-container">
+				<div class="work-head">Work Title</div>
+				<div class="work-box">
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+				</div>
+			</div>
+			
+			<div class="work-container">
+				<div class="work-head">Work Title</div>
+				<div class="work-box">
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+					
+					<a class="work-item" href="google.com">
+						<div class="work-item-title">Title of Work</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<p>Copyright 2022 Rachel Logan</p>
+		</div>
+		
+		<!--React-->
+		<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+		<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorgin></script>
+		
+		<!--Load react component-->
+		<script src="react.js"></script>
+
+	</body>
+
+</html>
