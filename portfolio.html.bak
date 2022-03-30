@@ -38,6 +38,7 @@
 					<div class="work-item">
 						<div class="work-item-title">Upcoming lottery project</div>
 						<div class="work-item-date">Expected May 2022</div>
+						<div class="work-extra">Working on data analysis and making maps with Leaflet and R.</div>
 					</div>
 				
 					<a class="work-item" href="https://cnsmaryland.org/lynching/lynching_data/index.html" target="_blank">
