@@ -40,7 +40,7 @@
 						<div class="work-extra">Wrote Flask app that updated with GitHub Actions and tweeted out new activity.</div>
 					</a>
 					
-					<a class="work-item" href="https://cnsmaryland.org/lynching/lynching_data/index.html" target="_blank">
+					<a class="work-item" href="pharmacy-deserts.html" target="_blank">
 						<div class="work-item-title">Prince George's County Pharmacy Deserts</div>
 						<div class="work-item-date">Completed December 2021</div>
 						<div class="work-extra">I categorized census tracts by their demographics and walking and driving distance to pharmacies.</div>
