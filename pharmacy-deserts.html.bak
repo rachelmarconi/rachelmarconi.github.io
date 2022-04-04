@@ -13,20 +13,23 @@
 	</head>
 	<body>
 
-		<div class="top">
-			<div class="banner">
-				<div class="banner-image"><img src="images/headshot.jpg" width="100%"></div>
-				<div class="banner-name">Rachel Logan</div>
+		<div id="top">
+			<div id="banner">
+				<div id="banner-image"><img src="images/headshot.jpg" width="100%"></div>
+				<div id="banner-name">Rachel Logan</div>
 			</div>
-			<div class="menu-bar">
+			<div id="menu-bar">
 				<div class="menu-item"><a href="index.html">Home</a></div>
 				<div class="menu-item"><a href="portfolio.html">Portfolio</a></div>
 				<div class="menu-item"><a href="bio.html">Bio</a></div>
+				<div class="menu-item"><a href="https://twitter.com/arobotwriting">Twitter</a></div>
+				<div class="menu-item"><a href="https://github.com/rachelll4">GitHub</a></div>
+				<div class="menu-item"><a href="https://www.linkedin.com/in/rachel-logan-a72258118/">LinkedIn</a></div>
 			</div>
 		</div>
 		
-		<div class="page-body">
-			<div class="desert-title">Pharmacy Deserts in Prince George's County, Maryland</div>
+		<div id="page-body">
+			<div id="desert-title">Pharmacy Deserts in Prince George's County, Maryland</div>
 			<div id="desert-sub-title">Published Dec. 15, 2021, by Rachel Logan</div>
 			
 			<div class="desert-head">1  Introduction</div>
@@ -315,7 +318,7 @@
 			</div>
 		</div>
 		
-		<div class="footer">
+		<div id="footer">
 			<p>Copyright 2022 Rachel Logan</p>
 		</div>
 		

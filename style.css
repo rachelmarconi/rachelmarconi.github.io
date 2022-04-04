@@ -1,6 +1,7 @@
 body{
 	width: 100%;
 	margin: 0 auto;
+	position: relative;
 }
 
 a{
@@ -245,6 +246,10 @@ a:hover{
 	#desert-title{
 		font-size: 3em;
 	}
+	.menu-item{
+		border-bottom: solid 1px #3A6905; /*green*/
+		padding: 7px 15px;
+	}
 }
 @media only screen and (max-width: 760px){
 	#page-body{
@@ -276,5 +281,9 @@ a:hover{
 	}
 	#desert-title{
 		font-size: 2em;
+	}
+	.menu-item{
+		border-bottom: solid 1px #3A6905; /*green*/
+		padding: 7px 0px;
 	}
 }
