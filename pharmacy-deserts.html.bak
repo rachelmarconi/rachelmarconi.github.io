@@ -21,7 +21,7 @@
 			<div class="menu-bar">
 				<div class="menu-item"><a href="index.html">Home</a></div>
 				<div class="menu-item"><a href="portfolio.html">Portfolio</a></div>
-				<div class="menu-item"><a href="bio.html" style="font-weight:bold; color:green;">Bio</a></div>
+				<div class="menu-item"><a href="bio.html">Bio</a></div>
 			</div>
 		</div>
 		
