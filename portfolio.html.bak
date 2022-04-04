@@ -26,6 +26,34 @@
 		</div>
 		
 		<div class="page-body">
+		
+			<div class="work-container">
+				<div class="work-head">Personal Projects</div>
+				<div class="work-description">
+					I'm passionate about local news, individual stories and new technologies. Here are some projects I've completed
+					just for fun, or to prove a point.
+				</div>
+				<div class="work-box">
+					<a class="work-item" href="https://rachelll4.github.io/na-gov-upgrade/build/index.html" target="_blank">
+						<div class="work-item-title">UMPD Arrest and Activity Tracker</div>
+						<div class="work-item-date">In progress spring 2022</div>
+						<div class="work-extra">Wrote Flask app that updated with GitHub Actions and tweeted out new activity.</div>
+					</a>
+					
+					<a class="work-item" href="https://cnsmaryland.org/lynching/lynching_data/index.html" target="_blank">
+						<div class="work-item-title">Prince George's County Pharmacy Deserts</div>
+						<div class="work-item-date">Completed December 2021</div>
+						<div class="work-extra">I categorized census tracts by their demographics and walking and driving distance to pharmacies.</div>
+					</a>
+					
+					<a class="work-item" href="https://github.com/rachelll4/slack-bot" target="_blank">
+						<div class="work-item-title">Sonic Bot</div>
+						<div class="work-item-date">Crafted March 2022</div>
+						<div class="work-extra">A very important Slack bot. Counts down to Sonic 2 release, using GitHub Actions.</div>
+					</a>
+				</div>
+			</div>
+		
 			<div class="work-container">
 				<div class="work-head">The Howard Center for Investigative Journalism</div>
 				<div class="work-time">December 2020 to present</div>
@@ -150,11 +178,6 @@
 						<div class="work-item-date">Published November 2020</div>
 					</a>
 					
-					<a class="work-item" href="https://streetcarsuburbs.news/despite-pandemic-good-neighbor-day-continues-to-serve/" target="_blank">
-						<div class="work-item-title">Despite pandemic, Good Neighbor Day continues to serve</div>
-						<div class="work-item-date">Published November 2020</div>
-					</a>
-					
 					<a class="work-item" href="https://streetcarsuburbs.news/church-holds-petting-zoo-to-honor-jesus-birth/" target="_blank">
 						<div class="work-item-title">Church holds petting zoo to honor Jesus’ birth </div>
 						<div class="work-item-date">Published December 2020</div>
@@ -171,6 +194,42 @@
 					</a>
 				</div>
 			</div>
+			
+			<div class="work-container">
+				<div class="work-head">The Daily American / Our Town, Johnstown</div>
+				<div class="work-time">May 2017 to October 2018</div>
+				<div class="work-role">Stringer</div>
+				<div class="work-description">
+					I worked for both The Daily American (Somerset County, PA), and its offshoot paper Our Town, Johnstown (PA), 
+					while I was in undergrad. I covered features and news on both daily and weekly deadlines. My stories ranged
+					from covering city council financial audits of the worst-off metropolis in PA to covering summer fairs organized 
+					by all the churches in a small town. See my complete authorship on the DA's webpage.
+				</div>
+				<div class="work-box">
+					<a class="work-item" href="https://www.dailyamerican.com/search/?q=%22rachel%20logan%22&page=1 " target="_blank">
+						<div class="work-item-title">All Daily American and Our Town coverage </div>
+					</a>
+				</div>
+			</div>
+			
+			<div class="work-container">
+				<div class="work-head">The Advocate</div>
+				<div class="work-time">September 2015 to March 2019</div>
+				<div class="work-role">Page editor, copy editor, staff writer</div>
+				<div class="work-description">
+					I worked for The Advocate, the student newspaper at Pitt-Johnstown, for all four years of my
+					undergraduate program. I started as a copy editor, but quickly moved to Opinions Editor and qualified
+					for staff writer. I served as News Editor and then Features Editor for a semester each, learning to cover
+					student government meetings, police citations and construction articles. See my complete authorship on
+					the Advocate's webpage.
+				</div>
+				<div class="work-box">
+					<a class="work-item" href="https://upj-advocate.com/staff_name/rachel-logan/ " target="_blank">
+						<div class="work-item-title">All Advocate coverage </div>
+					</a>
+				</div>
+			</div>
+			
 		</div>
 		
 		<div class="footer">

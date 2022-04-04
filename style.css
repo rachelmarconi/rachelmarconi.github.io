@@ -166,14 +166,41 @@ a:hover{
 }
 
 .bio-header{
-	font-size: 4em;
-	font-weight: bold;
+	font-size: 3em;
 	text-align: center;
 	padding-bottom: 40px;
 }
 
 .bio-text{
 	margin: 0 10%;
+}
+
+.desert-title{
+	font-size: 3em;
+	text-align: center;
+}
+
+#desert-sub-title{
+	font-size: 1.5em;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.desert-head{
+	font-size: 2em;
+	padding-top: 40px;
+	margin: 10px 10%;
+	border-bottom: solid 1px #3A6905; /*green*/
+	
+}
+
+.desert-text{
+	margin: 0 10%;
+}
+
+.desert-map{
+	margin: 30px 30%;
+	text-align: center;
 }
 
 .footer{
@@ -203,6 +230,10 @@ a:hover{
 		padding-right: 20px;
 		padding-bottom: 0px;
 	}
+	.desert-map{
+	margin: 30px 30%;
+	text-align: center;
+}
 }
 @media only screen and (max-width: 760px){
 	.page-body{
@@ -219,6 +250,10 @@ a:hover{
 	.body-image{
 		padding-bottom: 20px;
 		padding-right: 0px;
+	}
+	.desert-map{
+		margin: 30px 5%;
+		text-align: center;
 	}
 	
 }
