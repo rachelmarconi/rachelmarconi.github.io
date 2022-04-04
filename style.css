@@ -13,11 +13,11 @@ a:hover{
 	color: #3A6905; /*green*/
 }
 
-.top{
-	
+#top{
+	width: 100%;
 }
 
-.banner{
+#banner{
 	background-color: #3A6905; /*green*/
 	height: 60px;
 	width: 100%;
@@ -27,22 +27,22 @@ a:hover{
 	align-items: center;
 }
 
-.banner-name{
+#banner-name{
 	font-size: 2em;
 	color: white;
 }
 
-.banner-image{
+#banner-image{
 	width: 50px;
 	margin-right: 10px;
 }
 
-.banner-image img{
+#banner-image img{
 	width: 100%;
 	border-radius: 50%;
 }
 
-.menu-bar{
+#menu-bar{
 	width: 100%;
 	background-color: #E2F48B; /*cream*/
 	height: 35px;
@@ -56,29 +56,29 @@ a:hover{
 	padding: 7px 15px;
 }
 
-.page-body{
+#page-body{
 	padding-bottom: 70px;
 	margin: 50px;
 }
 
-.page-flex{
+#page-flex{
 	display: flex;
 	flex-direction: row;
 }
 
-.body-image{
+#body-image{
 	flex: 1;
 	width: 100%;
 	margin: auto 0;
 	padding-right: 20px;
 }
 
-.body-image img{
+#body-image img{
 	border-radius: 50%;
 	max-width: 300px;
 }
 
-.body-bio{
+#body-bio{
 	flex: 1;
 	width: 100%;
 	margin: auto 0;
@@ -88,7 +88,7 @@ a:hover{
 	border-color: #3A6905; /*green*/
 }
 
-.body-best-links{
+#body-best-links{
 	flex: 1;
 	width: 100%;
 	margin: auto 0;
@@ -165,17 +165,17 @@ a:hover{
 	font-size: .75em;
 }
 
-.bio-header{
+#bio-header{
 	font-size: 3em;
 	text-align: center;
 	padding-bottom: 40px;
 }
 
-.bio-text{
+#bio-text{
 	margin: 0 10%;
 }
 
-.desert-title{
+#desert-title{
 	font-size: 3em;
 	text-align: center;
 }
@@ -203,13 +203,13 @@ a:hover{
 	text-align: center;
 }
 
-.footer{
+#footer{
 	background-color: #3A6905; /*green*/
 	padding-top: 2px;
 	padding-bottom: 1px;
 }
 
-.footer p{
+#footer p{
 	text-align: center;
 	color: white;
 }

@@ -104,7 +104,7 @@
 			</div>
 			
 			<div class="desert-map">
-				<iframe title="Rating Prince George's County census tract pharmacy deserts" aria-label="Map" id="datawrapper-chart-zdRWG" src="https://datawrapper.dwcdn.net/zdRWG/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="931"></iframe>
+				<iframe title="Percent population without vehicle, Prince George's County" aria-label="Map" id="datawrapper-chart-sBuEq" src="https://datawrapper.dwcdn.net/sBuEq/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="757"></iframe>
 				<script type="text/javascript">
 					!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 				</script>
@@ -235,7 +235,7 @@
 			</div>
 			
 			<div class="desert-map">
-				<iframe title="Percent population without vehicle, Prince George's County" aria-label="Map" id="datawrapper-chart-sBuEq" src="https://datawrapper.dwcdn.net/sBuEq/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="757"></iframe>
+				<iframe title="Rating Prince George's County census tract pharmacy deserts" aria-label="Map" id="datawrapper-chart-zdRWG" src="https://datawrapper.dwcdn.net/zdRWG/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="931"></iframe>
 				<script type="text/javascript">
 					!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 				</script>
