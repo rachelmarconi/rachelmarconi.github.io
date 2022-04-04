@@ -231,9 +231,20 @@ a:hover{
 		padding-bottom: 0px;
 	}
 	.desert-map{
-	margin: 30px 30%;
-	text-align: center;
-}
+		margin: 30px 30%;
+		text-align: center;
+	}
+	.desert-text{
+		margin: 0 10%;
+	}
+	.desert-head{
+		font-size: 2em;
+		padding-top: 40px;
+		margin: 10px 10%;
+	}
+	#desert-title{
+		font-size: 3em;
+	}
 }
 @media only screen and (max-width: 760px){
 	.page-body{
@@ -255,5 +266,15 @@ a:hover{
 		margin: 30px 5%;
 		text-align: center;
 	}
-	
+	.desert-text{
+		margin: 0 10px;
+	}
+	.desert-head{
+		font-size: 1.25em;
+		padding-top: 20px;
+		margin: 10px 10px;
+	}
+	#desert-title{
+		font-size: 2em;
+	}
 }
