@@ -44,7 +44,7 @@ a:hover{
 
 .menu-bar{
 	width: 100%;
-	background-color: lime;
+	background-color: cream;
 	height: 35px;
 	display: flex;
 	flex-direction: row;
@@ -100,7 +100,7 @@ a:hover{
 	padding: 10px;
 	width: 100%;
 	border: solid 1px green;
-	background-color: lime;
+	background-color: cream;
 	margin: 5px 0px;
 	text-align: center;
 }
@@ -144,7 +144,7 @@ a:hover{
 .work-item{
 	border: solid 1px green;
 	padding: 30px;
-	background-color: lime;
+	background-color: cream;
 	max-width: 250px;
 }
 
@@ -196,9 +196,11 @@ a:hover{
 	}
 	.body-best-links{
 		padding-left: 20px;
+		padding-top: 0px;
 	}
 	.body-image{
 		padding-right: 20px;
+		padding-bottom: 0px;
 	}
 }
 @media only screen and (max-width: 760px){
@@ -211,9 +213,11 @@ a:hover{
 	}
 	.body-best-links{
 		padding-top: 20px;
+		padding-left: 0px;
 	}
 	.body-image{
 		padding-bottom: 20px;
+		padding-right: 0px;
 	}
 	
 }
