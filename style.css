@@ -59,10 +59,9 @@ a:hover{
 #page-body{
 	padding-bottom: 70px;
 	margin: 50px;
-	flex-direction: row;
 }
 
-#page-flex{
+.page-flex{
 	display: flex;
 	flex-direction: row;
 }
