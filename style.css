@@ -148,7 +148,7 @@ a:hover{
 
 .work-item{
 	border: solid 1px #3A6905; /*green*/
-	padding: 30px;
+	padding: 20px;
 	background-color: #E2F48B; /*cream*/
 	max-width: 250px;
 	border-radius: 5px;
@@ -254,6 +254,20 @@ a:hover{
 		border-bottom: solid 1px #3A6905; /*green*/
 		padding: 7px 15px;
 	}
+	.work-item{
+		padding: 20px;
+		max-width: 250px;
+	}
+	.work-item-title{
+		font-size: 1.5em;
+	}
+	.work-item-date{
+		font-size: 1em;
+		padding: 10px 0px;
+	}
+	.work-extra{
+		font-size: .75em;
+	}
 }
 @media only screen and (max-width: 760px){
 	#page-body{
@@ -289,5 +303,20 @@ a:hover{
 	.menu-item{
 		border-bottom: solid 1px #3A6905; /*green*/
 		padding: 7px 0px;
+	}
+	.work-item{
+		padding: 10px;
+		max-width: 100%;
+		width: 100%;
+	}
+	.work-item-title{
+		font-size: 1.25em;
+	}
+	.work-item-date{
+		font-size: 1em;
+		padding: 10px 0px;
+	}
+	.work-extra{
+		font-size: .75em;
 	}
 }
