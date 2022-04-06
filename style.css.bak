@@ -284,6 +284,6 @@ a:hover{
 	}
 	.menu-item{
 		border-bottom: solid 1px #3A6905; /*green*/
-		padding: 7px 7px;
+		padding: 7px 0px;
 	}
 }
