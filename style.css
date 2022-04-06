@@ -57,6 +57,10 @@ a:hover{
 	padding: 7px 15px;
 }
 
+#menu-first{
+	margin-left: 5px;
+}
+
 #page-body{
 	padding-bottom: 70px;
 	margin: 50px;
@@ -284,6 +288,6 @@ a:hover{
 	}
 	.menu-item{
 		border-bottom: solid 1px #3A6905; /*green*/
-		padding: 7px 5px;
+		padding: 7px 0px;
 	}
 }
