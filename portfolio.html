@@ -10,13 +10,16 @@
 		<!--Element stylesheet-->
 		<link rel="stylesheet" type="text/css" href="style.css">
 
+		<!--all js is in this one-->
+		<script src="./script.js"></script>
+
 	</head>
 	<body>
 
 		<div id="top">
 			<div id="banner">
-				<div id="banner-image"><img src="images/headshot.jpg" width="100%"></div>
-				<div id="banner-name">Rachel Logan</div>
+				<div id="banner-image"><a href="index.html"><img src="images/headshot.jpg" width="100%"></a></div>
+				<div id="banner-name"><a href="index.html">Rachel Logan</a></div>
 			</div>
 			<div id="menu-bar">
 				<div class="menu-item" id="menu-first"><a href="index.html">Home</a></div>
@@ -29,6 +32,41 @@
 		</div>
 		
 		<div id="page-body">
+
+			<div class="work-container">
+				<div class="work-head">USA TODAY Network's Storytelling Studio</div>
+				<div class="work-time">June 2022 to December 2022</div>
+				<div class="work-role">Software developer</div>
+				<div class="work-description">
+					I made scrolling narratives with maps and 3D models, crafted interactive maps with Mapbox
+					and built components to enhance web presentations.
+				</div>
+				<div class="work-box">
+					<a class="work-item" href="https://www.usatoday.com/in-depth/news/investigations/2022/11/16/crumbling-dams-rising-rain-flood-weather-simulation-oklahoma-city/10662580002/">
+						<div class="work-item-title">What happens if a dam fails? An inside look at one city’s nightmare scenario</div>
+						<div class="work-item-date">Published November 2022</div>
+						<div class="work-extra">Made three scrolling narratives with Javascript, model-viewer and Mapbox.</div>
+					</a>
+				
+					<a class="work-item" href="https://www.courier-journal.com/in-depth/news/investigations/2022/10/19/between-the-lines-kentucky-schools-throwing-money-controversial-reading-program/65405706007/" target="_blank">
+						<div class="work-item-title">Kentucky keeps throwing money at a controversial reading program that may not even work</div>
+						<div class="work-item-date">Published October 2022</div>
+						<div class="work-extra">Analyzed and fact-checked data in R, made graphics in ggplot2, Flourish and Infogram.</div>
+					</a>
+			
+					<a class="work-item" href="https://www.app.com/in-depth/entertainment/music/2022/09/20/bruce-springsteen-jersey-shore-sites-asbury-park-freehold/65380636007/" target="_blank">
+						<div class="work-item-title">'My Hometown': Tour the Jersey Shore spots that Bruce Springsteen made famous</div>
+						<div class="work-item-date">Published September 2022</div>
+						<div class="work-extra">Built spreadsheet-powered navigation via interactive, scroll-activated Mapbox maps with colorful, responsive icons in JS.</div>
+					</a>
+
+					<a class="work-item" href="https://www.democratandchronicle.com/in-depth/news/2022/08/02/rochester-favorite-tree-stories-share-your-own/9944037002/" target="_blank">
+						<div class="work-item-title">Read about Rochester’s most beloved trees and share your own story</div>
+						<div class="work-item-date">Published August 2022</div>
+						<div class="work-extra">Built chapter heading elements with Mapbox and scroll listeners that zoom into spreadsheet-powered target area when they enter the viewport.</div>
+					</a>
+				</div>
+			</div>
 		
 			<div class="work-container">
 				<div class="work-head">Personal Projects</div>
@@ -37,11 +75,6 @@
 					just for fun, or to prove a point.
 				</div>
 				<div class="work-box">
-					<a class="work-item" href="https://rachelll4.github.io/na-gov-upgrade/build/index.html" target="_blank">
-						<div class="work-item-title">UMPD Arrest and Activity Tracker</div>
-						<div class="work-item-date">In progress spring 2022</div>
-						<div class="work-extra">Wrote Flask app that updated with GitHub Actions and tweeted out new activity.</div>
-					</a>
 					
 					<a class="work-item" href="pharmacy-deserts.html">
 						<div class="work-item-title">Prince George's County Pharmacy Deserts</div>
@@ -59,18 +92,18 @@
 		
 			<div class="work-container">
 				<div class="work-head">The Howard Center for Investigative Journalism</div>
-				<div class="work-time">December 2020 to present</div>
+				<div class="work-time">December 2020 to April 2022</div>
 				<div class="work-role">Data Fellow</div>
 				<div class="work-description">
-					I worked on data, graphics and content posting for this highly collaborative newsroom. 
+					I worked on data, graphics and news applications for this highly collaborative newsroom. 
 					The Howard Center is hosted through the University of Maryland. 
 				</div>
 				<div class="work-box">
-					<div class="work-item">
-						<div class="work-item-title">Upcoming lottery project</div>
-						<div class="work-item-date">Expected May 2022</div>
-						<div class="work-extra">Working on data analysis and making maps with Leaflet and R.</div>
-					</div>
+					<a class="work-item" href="https://cnsmaryland.org/interactives/spring-2022/app/">
+						<div class="work-item-title">Mega Millions: The Lottery on Your Block</div>
+						<div class="work-item-date">Published July 2022</div>
+						<div class="work-extra">Analyzed data, shared findings in draft webpages and crafted interactive maps with Leaflet and R.</div>
+					</a>
 				
 					<a class="work-item" href="https://cnsmaryland.org/lynching/lynching_data/index.html" target="_blank">
 						<div class="work-item-title">Printing Hate</div>
@@ -238,13 +271,6 @@
 		<div id="footer">
 			<p>Copyright 2022 Rachel Logan</p>
 		</div>
-		
-		<!--React-->
-		<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-		<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorgin></script>
-		
-		<!--Load react component-->
-		<script src="react.js"></script>
 
 	</body>
 

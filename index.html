@@ -10,17 +10,17 @@
 		<!--Element stylesheet-->
 		<link rel="stylesheet" type="text/css" href="style.css">
 		
-		
-
+		<!--all js is in this one-->
+		<script src="./script.js"></script>
 
 	</head>
 	<body>
 
 		<div id="top">
-			<div id="banner">
+			<!--div id="banner">
 				<div id="banner-image"><img src="images/headshot.jpg" width="100%"></div>
 				<div id="banner-name">Rachel Logan</div>
-			</div>
+			</div-->
 			<div id="menu-bar">
 				<div class="menu-item" id="menu-first"><a href="index.html" style="font-weight:bold; color:#3A6905;">Home</a></div>
 				<div class="menu-item"><a href="portfolio.html">Portfolio</a></div>
@@ -30,34 +30,33 @@
 				<div class="menu-item"><a href="https://www.linkedin.com/in/rachel-logan-a72258118/" target="_blank">LinkedIn</a></div>
 			</div>
 		</div>
+
+		<div id="hero">
+			<div id="hero-image"><img src ="images/headshot.jpg" width="100%"></div>
+			<h2 id="hero-text">I'm a journalist developer.</h2>
+		</div>
 		
 		<div id="page-body" class = "page-flex">
-			<div id="body-image"><img src ="images/headshot.jpg" width="100%"></div>
 			<div id="body-bio">
-				<p>I'm a journalist developer.<br><br>I'm an eager programmer who loves chewing on complex problems, 
+				<h3>Hello!</h3>
+				<p>I'm an eager programmer who loves chewing on complex problems, 
 				but I'm also deeply interested in human stories. Together, these two halves of me allow for
 				full-scope data articles, reaching from federal data down to individual struggles.
 				I love local news and empowering residents to take action and stay informed in their local
 				communities.<br><br>I also love to hike and am always looking for a new niche cafe!</p>
 			</div>
+
 			<div id="body-best-links">
-				<div>Top work samples:</div>
+				<h3>Top work samples:</h3>
+				<a class="work-sample-box" href="https://www.usatoday.com/in-depth/news/investigations/2022/11/16/crumbling-dams-rising-rain-flood-weather-simulation-oklahoma-city/10662580002/" target="_blank">What happens if a dam fails? An inside look at one city’s nightmare scenario</a>
 				<a class="work-sample-box" href="https://cnsmaryland.org/lynching/lynching_data/index.html" target="_blank">Printing Hate news app</a>
 				<a class="work-sample-box" href="https://cnsmaryland.org/2021/12/08/pandemic-financially-devastated-minority-led-nonprofits/" target="_blank">Nonprofit struggles</a>
-				<a class="work-sample-box" href="https://cnsmaryland.org/2021/11/22/maryland-counties-vaccinate-youngest-schoolchildren/" target="_blank">Kid vaccines</a>
 			</div>
 		</div>
 		
 		<div id="footer">
 			<p>Copyright 2022 Rachel Logan</p>
 		</div>
-		
-		<!--React-->
-		<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-		<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorgin></script>
-		
-		<!--Load react component-->
-		<script src="react.js"></script>
 
 	</body>
 
