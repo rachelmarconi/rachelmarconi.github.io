@@ -16,7 +16,7 @@ const config = {
       "$utils/*": "./src/lib/utils/*",
     },
     paths: {
-      base: process.env.NODE_ENV === 'production' ? '/sveltekit-github-pages' : '',
+      base: process.env.NODE_ENV === 'production' ? '/rachelmarconi.github.io' : '',
       relative: false
     },
   },
