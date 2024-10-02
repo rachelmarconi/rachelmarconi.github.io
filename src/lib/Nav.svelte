@@ -6,7 +6,7 @@
 
 <div id="top">
     <div id="banner">
-        <a id="banner-image" href="{base}/"><img src="../images/headshot.jpg" width="100%" alt="headshot"></a>
+        <a id="banner-image" href="{base}/"><img src="{base}/images/headshot.jpg" width="100%" alt="headshot"></a>
         <a id="banner-name" href="{base}/">Rachel Marconi</a>
     </div>
     <div id="menu-bar">

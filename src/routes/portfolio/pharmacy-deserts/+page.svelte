@@ -1,4 +1,6 @@
 <script>
+  import { base } from "$app/paths";
+
 </script>
 
 <main>
@@ -15,7 +17,7 @@
     
     <div class="desert-head">1.1  Motivation</div>
     <div class="desert-text">
-      On Oct. 1, 2021, a law came into effect <a href="#references" style="font-weight:bold;">[1]</a> in the state removing the size and type 
+      On Oct. 1, 2021, a law came into effect <a href="{base}/portfolio/pharmacy-deserts#references" style="font-weight:bold;">[1]</a> in the state removing the size and type 
       ban for what over-the-county medication can be sold in vending machines – a ban that 
       has been in place since at least the 1950’s. Despite strong proponents for the law among 
       those in the Legislature, noting equity as a strong reason to allow vending machines 
@@ -67,12 +69,12 @@
     
     <div class="desert-head">2  Literature Review</div>
     <div class="desert-text">
-      A 2016 Capital News Service collaboration project <a href="references" style="font-weight:bold;">[3]</a> surveyed and reported on pharmacy 
+      A 2016 Capital News Service collaboration project <a href="{base}/portfolio/pharmacy-deserts#references" style="font-weight:bold;">[3]</a> surveyed and reported on pharmacy 
       deserts in Baltimore, reviewing testimony from residents and highlighting just how bad the 
       problem is. This project takes it one step further by roping in pharmacy vending machines 
       as a solution.
       <br><br>
-      A September 2021 report by GoodRx <a href="#references" style="font-weight:bold;">[2]</a> surveyed healthcare deserts nationwide last year as 
+      A September 2021 report by GoodRx <a href="{base}/portfolio/pharmacy-deserts#references" style="font-weight:bold;">[2]</a> surveyed healthcare deserts nationwide last year as 
       the COVID-19 pandemic highlighted health disparities. While that report analyzed every county 
       in the country for hospital, emergency room and pharmacy deserts, among others, it erased 
       changes within counties. It also considered only driving time and not walking time, and used 
@@ -169,7 +171,7 @@
       census tract, pharmacy independent, which were averaged together.
       <br><br>
       This distances dataset could then be converted into walking and driving speed. A detour factor 
-      of 1.417 was applied, a factor used by the GoodRx report <a href="references" style="font-weight:bold;">[2]</a> and confirmed as a reasonable 
+      of 1.417 was applied, a factor used by the GoodRx report <a href="{base}/portfolio/pharmacy-deserts#references" style="font-weight:bold;">[2]</a> and confirmed as a reasonable 
       factor by United States standards to include corners and turns into routes. Walking speed was 
       estimated at 3 mph to account for elderly or disabled walkers in any seasonal condition. Driving 
       speed was set at 25 mph to account for mostly urban travel times, although this speed is less 

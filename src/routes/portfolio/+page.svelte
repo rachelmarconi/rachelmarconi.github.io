@@ -1,5 +1,6 @@
 <script>
-  import Nav from "$lib/Nav.svelte";
+  import { base } from "$app/paths";
+import Nav from "$lib/Nav.svelte";
 </script>
 
 <main>
@@ -85,7 +86,7 @@
       </div>
       <div class="work-box">
         
-        <a class="work-item" href="pharmacy-deserts.html">
+        <a class="work-item" href="{base}/portfolio/pharmacy-deserts">
           <div class="work-item-title">Prince George's County Pharmacy Deserts</div>
           <div class="work-item-date">Completed December 2021</div>
           <div class="work-extra">I categorized census tracts by their demographics and walking and driving distance to pharmacies.</div>

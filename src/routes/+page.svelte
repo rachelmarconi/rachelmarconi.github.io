@@ -1,5 +1,6 @@
 <script>
-  import Nav from "$lib/Nav.svelte";
+  import { base } from "$app/paths";
+import Nav from "$lib/Nav.svelte";
   console.log("👋 Welcome to Rachel's website!");
 </script>
 
@@ -9,7 +10,7 @@
 
   <div id="hero">
     <div id="hero-image">
-      <img src ="images/headshot.jpg" width="100%" alt="headshot">
+      <img src ="{base}/images/headshot.jpg" width="100%" alt="headshot">
     </div>
     
     <div id="hero-text">
