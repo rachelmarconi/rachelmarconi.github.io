@@ -1,17 +1,18 @@
 <script>
+    import { base } from "$app/paths";
     export let current_page = "index";
 
 </script>
 
 <div id="top">
     <div id="banner">
-        <a id="banner-image" href="/"><img src="../images/headshot.jpg" width="100%" alt="headshot"></a>
-        <a id="banner-name" href="/">Rachel Marconi</a>
+        <a id="banner-image" href="{base}/"><img src="../images/headshot.jpg" width="100%" alt="headshot"></a>
+        <a id="banner-name" href="{base}/">Rachel Marconi</a>
     </div>
     <div id="menu-bar">
-        <a class="menu-item {current_page == 'index' ? 'current' : ''}" href="/" id="menu-first">Home</a>
-        <a class="menu-item {current_page == 'portfolio' ? 'current' : ''}" href="/portfolio">Portfolio</a>
-        <a class="menu-item {current_page == 'bio' ? 'current' : ''}" href="/bio">Bio</a>
+        <a class="menu-item {current_page == 'index' ? 'current' : ''}" href="{base}/" id="menu-first">Home</a>
+        <a class="menu-item {current_page == 'portfolio' ? 'current' : ''}" href="{base}/portfolio">Portfolio</a>
+        <a class="menu-item {current_page == 'bio' ? 'current' : ''}" href="{base}/bio">Bio</a>
         <a class="menu-item" href="https://twitter.com/arobotwriting" target="_blank">Twitter</a>
         <a class="menu-item" href="https://github.com/rachelmarconi" target="_blank">GitHub</a>
         <a class="menu-item" href="https://www.linkedin.com/in/rachel-logan-a72258118/" target="_blank">LinkedIn</a>
