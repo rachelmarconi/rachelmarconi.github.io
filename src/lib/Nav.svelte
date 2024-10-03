@@ -91,5 +91,12 @@
 	margin-left: 5px;
 }
 
+@media screen and (max-width: 620px){
+    #menu-bar{
+        flex-wrap:wrap;
+        height: 75px;
+    }
+}
+
     
 </style>
