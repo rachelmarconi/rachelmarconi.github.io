@@ -87,11 +87,6 @@ import Nav from "$lib/Nav.svelte";
 	font-size: 3em;
 }
 
-#body-image img{
-	border-radius: 50%;
-	max-width: 300px;
-}
-
 #body-bio{
 	flex: 1;
 	width: 100%;
