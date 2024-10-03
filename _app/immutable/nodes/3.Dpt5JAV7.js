@@ -1,4 +1,4 @@
-import{s as u,n as f}from"../chunks/scheduler.Bmg8oFKD.js";import{S as h,i as g,e as d,c as w,s as v,a as l,b as I,d as b,f as y,g as k,h as p,j as _,k as S,m as x,l as m,t as $,n as A,o as C}from"../chunks/index.BTrdZ6vp.js";import{N as M}from"../chunks/Nav.JAbdyRhw.js";function N(c){let e,t,r,n,s=`<div id="bio-header">About Me</div> <div id="bio-text"><p>I graduated from the University of Pittsburgh at Johnstown in 2019 with a BS in 
+import{s as u,n as f}from"../chunks/scheduler.Bmg8oFKD.js";import{S as h,i as g,e as d,c as w,s as v,a as l,b as I,d as b,f as y,g as k,h as p,j as _,k as S,m as x,l as m,t as $,n as A,o as C}from"../chunks/index.BTrdZ6vp.js";import{N as M}from"../chunks/Nav.CSM6Pm2r.js";function N(c){let e,t,r,n,s=`<div id="bio-header">About Me</div> <div id="bio-text"><p>I graduated from the University of Pittsburgh at Johnstown in 2019 with a BS in 
       Computer Engineering. While I was completing my undergrad, I worked consistently 
       for my student newspaper, The Advocate, and served in News, Features and Opinions page editor
       positions. I also was a constant staff writer and copy editor. I loved the paper, even between 
