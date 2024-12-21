@@ -1,0 +1,269 @@
+[
+  {
+    "work_location": "The Urban Institute",
+    "work_time": "January 2023 to present",
+    "work_role": "Senior Data Visualization Developer",
+    "work description": "I worked with Svelte and D3 to make interactive maps and charts explaining our policy center research to experts.",
+    "work items": [
+      {
+        "work_item_title": "Debt in America: An Interactive Map",
+        "work_item_date": "Published October 2023, updated September 2024",
+        "work_item_link": "https://apps.urban.org/features/debt-interactive-map/?type=overall&variable=totcoll",
+        "work_item_description": "Updated a map tool project to include a new cut of young adult state debt data among other county-level debt data for all adults."
+      },
+      {
+        "work_item_title": "The Changing Medical Debt Landscape in the United States",
+        "work_item_date": "Published July 2024",
+        "work_item_link": "https://apps.urban.org/features/medical-debt-over-time/",
+        "work_item_description": "Built a line chart tool with LayerCake allowing users to compare medical debt in different counties and states."
+      },
+      {
+        "work_item_title": "Does SNAP Cover the Cost of a Meal in Your County?",
+        "work_item_date": "Published July 2023, updated May 2024",
+        "work_item_link": "https://www.urban.org/data-tools/does-snap-cover-cost-meal-your-county-2022",
+        "work_item_description": "Built a map with D3 that shows the difference nationwide between SNAP prices and the average cost of a moderate meal in each county."
+      },
+      {
+        "work_item_title": "How School Officials and Housing Developers Can Partner to Desegregate Communities",
+        "work_item_date": "Published April 2024",
+        "work_item_link": "https://housingmatters.urban.org/feature/school-housing-partnership-desegregate-communities",
+        "work_item_description": "Built a map, chart, and takeaway data tool using Svelte, LayerCake, and MapBox showing how racial disparities in housing affect local schools."
+      },
+      {
+        "work_item_title": "Supporting Women of Color Experiencing Homelessness as Individuals in Los Angeles ",
+        "work_item_date": "Published March 2024",
+        "work_item_link": "https://www.urban.org/stories/supporting-women-color-experiencing-homelessness-individuals-los-angeles",
+        "work_item_description": "Built several charts with Datawrapper to support each section of a feature."
+      },
+      {
+        "work_item_title": "The Special Purpose Credit Program Data Toolkit",
+        "work_item_date": "Published March 2024",
+        "work_item_link": "https://www.urban.org/projects/special-purpose-credit-program-data-toolkit",
+        "work_item_description": "Built a set of automatically generated factsheets and charts displaying credit and wealth statistics for 50 major cities."
+      },
+      {
+        "work_item_title": "Housing First Is Still the Best Approach to Ending Homelessness",
+        "work_item_date": "Published February 2024",
+        "work_item_link": "https://housingmatters.urban.org/feature/housing-first-still-best-approach-ending-homelessness",
+        "work_item_description": "Built comprehensive charts with Datawrapper to back each simple point in an enhanced blog post."
+      },
+      {
+        "work_item_title": "Mapping Neighborhoods with the Highest Risk of Housing Instability and Homelessness",
+        "work_item_date": "Published July 2023",
+        "work_item_link": "https://www.urban.org/data-tools/mapping-neighborhoods-highest-risk-housing-instability-and-homelessness",
+        "work_item_description": "Built a map tool in MpaBox that highlights where in each state is most in need of housing aid."
+      },
+      {
+        "work_item_title": "The Promise and Pitfalls of the Washington, DC, Region’s Strong Capital Flows",
+        "work_item_date": "Published February 2023",
+        "work_item_link": "https://apps.urban.org/features/capital-flows-washington-dc-region/",
+        "work_item_description": "Put in an animated D3 tweak for a missing last data point in a line chart."
+      }
+    ]
+  },
+  {
+    "work_location": "USA TODAY Network's Storytelling Studio",
+    "work_time": "June 2022 to December 2022",
+    "work_role": "Software developer",
+    "work description": "I made scrolling narratives with maps and 3D models, crafted interactive maps with Mapbox and built components to enhance web presentations.",
+    "work items": [
+      {
+        "work_item_title": "What happens if a dam fails? An inside look at one city’s nightmare scenario",
+        "work_item_date": "Published November 2022",
+        "work_item_link": "https://www.usatoday.com/in-depth/news/investigations/2022/11/16/crumbling-dams-rising-rain-flood-weather-simulation-oklahoma-city/10662580002/",
+        "work_item_description": "Made three scrolling narratives with Javascript, model-viewer and Mapbox."
+      },
+      {
+        "work_item_title": "Kentucky keeps throwing money at a controversial reading program that may not even work",
+        "work_item_date": "Published October 2022",
+        "work_item_link": "https://www.courier-journal.com/in-depth/news/investigations/2022/10/19/between-the-lines-kentucky-schools-throwing-money-controversial-reading-program/65405706007/",
+        "work_item_description": "Analyzed and fact-checked data in R, made graphics in ggplot2, Flourish and Infogram."
+      },
+      {
+        "work_item_title": "'My Hometown': Tour the Jersey Shore spots that Bruce Springsteen made famous",
+        "work_item_date": "Published September 2022",
+        "work_item_link": "https://www.app.com/in-depth/entertainment/music/2022/09/20/bruce-springsteen-jersey-shore-sites-asbury-park-freehold/65380636007/",
+        "work_item_description": "Built spreadsheet-powered navigation via interactive, scroll-activated Mapbox maps with colorful, responsive icons in JS."
+      },
+      {
+        "work_item_title": "Read about Rochester’s most beloved trees and share your own story",
+        "work_item_date": "Published August 2022",
+        "work_item_link": "https://www.democratandchronicle.com/in-depth/news/2022/08/02/rochester-favorite-tree-stories-share-your-own/9944037002/",
+        "work_item_description": "Built chapter heading elements with Mapbox and scroll listeners that zoom into spreadsheet-powered target area when they enter the viewport."
+      }
+    ]
+  },
+  {
+    "work_location": "Personal Projects",
+    "work description": "I'm passionate about local news, individual stories and new technologies. Here are some projects I've completed just for fun, or to prove a point.",
+    "work items": [
+      {
+        "work_item_title": "Prince George's County Pharmacy Deserts",
+        "work_item_date": "Completed December 2021",
+        "work_item_link": "/portfolio/pharmacy-deserts",
+        "work_item_local_link": true,
+        "work_item_description": "I categorized census tracts by their demographics and walking and driving distance to pharmacies."
+      },
+      {
+        "work_item_title": "Sonic Bot",
+        "work_item_date": "Crafted March 2022",
+        "work_item_link": "https://github.com/rachelll4/slack-bot",
+        "work_item_description": "A very important Slack bot. Counts down to Sonic 2 release, using GitHub Actions."
+      }
+    ]
+  },
+  {
+    "work_location": "The Howard Center for Investigative Journalism",
+    "work_time": "December 2020 to April 2022",
+    "work_role": "Data Fellow",
+    "work description": "I worked on data, graphics and news applications for this highly collaborative newsroom. The Howard Center is hosted through the University of Maryland. ",
+    "work items": [
+      {
+        "work_item_title": "Mega Millions: The Lottery on Your Block",
+        "work_item_date": "Published July 2022",
+        "work_item_link": "https://cnsmaryland.org/interactives/spring-2022/app/",
+        "work_item_description": "Analyzed data, shared findings in draft webpages and crafted interactive maps with Leaflet and R."
+      },
+      {
+        "work_item_title": "Printing Hate",
+        "work_item_date": "Published December 2021",
+        "work_item_link": "https://cnsmaryland.org/lynching/lynching_data/index.html",
+        "work_item_description": "Developed news application, processed historical news clippings with Python, OCR, NLP."
+      },
+      {
+        "work_item_title": "Essential and Exposed",
+        "work_item_date": "Published May 2021",
+        "work_item_link": "https://cnsmaryland.org/category/essential-and-exposed/",
+        "work_item_description": "Organized and completed initial FOIAs performed data analysis and data fact-check."
+      }
+    ]
+  },
+  {
+    "work_location": "Capital News Service - Annapolis Bureau",
+    "work_time": "September to December 2021",
+    "work_role": "Health and Business Data Reporter",
+    "work description": "Capital News Service-Annapolis covers state news out of Maryland State House. I live-tweeted Gov. Larry Hogan's pressers and the assembly's special sessions for daily stories, but I also worked out longer data stories with deeply human connections based on the odd press release or tip. This full-time, four-day-per-week wire service is run as a semester-long class through the University of Maryland.",
+    "work items": [
+      {
+        "work_item_title": "Pandemic financially devestated minority-led nonprofits",
+        "work_item_date": "Published Dec. 8, 2021",
+        "work_item_link": "https://cnsmaryland.org/2021/12/08/pandemic-financially-devastated-minority-led-nonprofits/",
+        "work_item_extra": "Picked up by the AP"
+      },
+      {
+        "work_item_title": "Maryland counties vaccinate youngest schoolchildren",
+        "work_item_date": "Published Nov. 19, 2021",
+        "work_item_link": "https://cnsmaryland.org/2021/11/22/maryland-counties-vaccinate-youngest-schoolchildren/"
+      },
+      {
+        "work_item_title": "New virtual reality course lowers stress at recovery centers",
+        "work_item_date": "Published Nov. 3, 2021",
+        "work_item_link": "https://cnsmaryland.org/2021/11/03/new-virtual-reality-course-lowers-stress-at-recovery-centers/"
+      },
+      {
+        "work_item_title": "Annapolis downtown floods as high water expected to last the weekend",
+        "work_item_date": "Published Oct. 29, 2021",
+        "work_item_link": "https://cnsmaryland.org/2021/10/29/annapolis-downtown-floods-as-high-water-expected-to-last-the-weekend/",
+        "work_item_extra": "Highly collaborative, written as team of five."
+      },
+      {
+        "work_item_title": "New Immigrant Affairs office to connect resource centers",
+        "work_item_date": "Published Oct. 27, 2021",
+        "work_item_link": "https://cnsmaryland.org/2021/10/27/new-immigrant-affairs-office-to-connect-resource-centers/"
+      },
+      {
+        "work_item_title": "More non-prescription meds are coming to vending machines",
+        "work_item_date": "Published Oct. 19, 2021",
+        "work_item_link": "https://cnsmaryland.org/2021/10/19/more-non-prescription-meds-are-coming-to-vending-machines/"
+      },
+      {
+        "work_item_title": "State ends 2021 with surplus, but some Marylanders struggle",
+        "work_item_date": "Published Sept. 30, 2021",
+        "work_item_link": "https://cnsmaryland.org/2021/09/30/cns-revenue-2021/"
+      },
+      {
+        "work_item_title": "Robust, unique vaccine outreach bears fruit for state grant",
+        "work_item_date": "Published Sept. 23, 2021",
+        "work_item_link": "https://cnsmaryland.org/2021/09/23/robust-unique-vaccine-outreach-bears-fruit-for-state-grant/"
+      },
+      {
+        "work_item_title": "Centuries-old reprints on display in Annapolis",
+        "work_item_date": "Published Sept. 10, 2021",
+        "work_item_link": "https://cnsmaryland.org/2021/09/10/centuries-old-reprints-letter-on-display-in-annapolis/",
+        "work_item_extra": "Picked up by the AP"
+      }
+    ]
+  },
+  {
+    "work_location": "College Park Here & Now",
+    "work_time": "June 2020 to September 2021",
+    "work_role": "Staff Writer",
+    "work description": "I wrote human-focused stories, took photographs and delivered papers for this fledgling community newspaper.",
+    "work items": [
+      {
+        "work_item_title": "Paint Branch proposal may upend local golf experience",
+        "work_item_date": "Published June 2021",
+        "work_item_link": "https://streetcarsuburbs.news/paint-branch-proposal-may-upend-local-golf-experience/"
+      },
+      {
+        "work_item_title": "Meet College Park’s newest congregation",
+        "work_item_date": "Published May 2021",
+        "work_item_link": "https://streetcarsuburbs.news/meet-college-parks-newest-congregation/"
+      },
+      {
+        "work_item_title": "Vaccine distribution lags, even as distribution sites increase",
+        "work_item_date": "Published February 2021",
+        "work_item_link": "https://streetcarsuburbs.news/vaccine-distribution-lags-even-as-distribution-sites-increase/"
+      },
+      {
+        "work_item_title": "Area looks to streamline vaccine distribution",
+        "work_item_date": "Published April 2021",
+        "work_item_link": "https://streetcarsuburbs.news/area-looks-to-streamline-vaccine-distribution/"
+      },
+      {
+        "work_item_title": "Despite pandemic, Good Neighbor Day continues to serve",
+        "work_item_date": "Published November 2020",
+        "work_item_link": "https://streetcarsuburbs.news/despite-pandemic-good-neighbor-day-continues-to-serve/"
+      },
+      {
+        "work_item_title": "Church holds petting zoo to honor Jesus’ birth",
+        "work_item_date": "Published December 2020",
+        "work_item_link": "https://streetcarsuburbs.news/church-holds-petting-zoo-to-honor-jesus-birth/"
+      },
+      {
+        "work_item_title": "Churches find ways to worship and serve this holiday season",
+        "work_item_date": "Published December 2020",
+        "work_item_link": "https://streetcarsuburbs.news/churches-find-ways-to-worship-and-serve-this-holiday-season/"
+      },
+      {
+        "work_item_title": "City signs amicus brief supporting DACA",
+        "work_item_date": "Published September 2020",
+        "work_item_link": "https://streetcarsuburbs.news/city-signs-amicus-brief-supporting-daca/"
+      }
+    ]
+  },
+  {
+    "work_location": "The Daily American / Our Town, Johnstown",
+    "work_time": "May 2017 to October 2018",
+    "work_role": "Stringer",
+    "work description": "I worked for both The Daily American (Somerset County, PA), and its offshoot paper Our Town, Johnstown (PA), while I was in undergrad. I covered features and news on both daily and weekly deadlines. My stories ranged from covering city council financial audits of the worst-off metropolis in PA to covering summer fairs organized by all the churches in a small town. See my complete authorship on the DA's webpage.",
+    "work items": [
+      {
+        "work_item_title": "All Daily American and Our Town coverage",
+        "work_item_link": "https://www.dailyamerican.com/search/?q=%22rachel%20logan%22&page=1"
+      }
+    ]
+  },
+  {
+    "work_location": "The Advocate",
+    "work_time": "September 2015 to March 2019",
+    "work_role": "Page editor, copy editor, staff writer",
+    "work description": "I worked for The Advocate, the student newspaper at Pitt-Johnstown, for all four years of my undergraduate program. I started as a copy editor, but quickly moved to Opinions Editor and qualified for staff writer. I served as News Editor and then Features Editor for a semester each, learning to cover student government meetings, police citations and construction articles. See my complete authorship on the Advocate's webpage.",
+    "work items": [
+      {
+        "work_item_title": "All Advocate coverage",
+        "work_item_link": "https://upj-advocate.com/staff_name/rachel-logan/"
+      }
+    ]
+  }
+]
