@@ -57,7 +57,7 @@
         work_item_title: Mapping Neighborhoods with the Highest Risk of Housing Instability and Homelessness
         work_item_date: Published July 2023
         work_item_link: https://www.urban.org/data-tools/mapping-neighborhoods-highest-risk-housing-instability-and-homelessness
-        work_item_description: Built a map tool in MpaBox that highlights where in each state is most in need of housing aid.
+        work_item_description: Built a map tool in MapBox that highlights where in each state is most in need of housing aid.
         work_item_image: erap.png
 
         work_item_title: The Promise and Pitfalls of the Washington, DC, Region’s Strong Capital Flows
