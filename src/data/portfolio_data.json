@@ -3,55 +3,63 @@
     "work_location": "The Urban Institute",
     "work_time": "January 2023 to present",
     "work_role": "Senior Data Visualization Developer",
-    "work description": "I worked with Svelte and D3 to make interactive maps and charts explaining our policy center research to experts.",
-    "work items": [
+    "work_description": "I worked with Svelte and D3 to make interactive maps and charts explaining our policy center research to experts.",
+    "work_items": [
       {
         "work_item_title": "Debt in America: An Interactive Map",
         "work_item_date": "Published October 2023, updated September 2024",
         "work_item_link": "https://apps.urban.org/features/debt-interactive-map/?type=overall&variable=totcoll",
-        "work_item_description": "Updated a map tool project to include a new cut of young adult state debt data among other county-level debt data for all adults."
+        "work_item_description": "Updated a map tool project to include a new cut of young adult state debt data among other county-level debt data for all adults.",
+        "work_item_image": "debt-in-america.png"
       },
       {
         "work_item_title": "The Changing Medical Debt Landscape in the United States",
         "work_item_date": "Published July 2024",
         "work_item_link": "https://apps.urban.org/features/medical-debt-over-time/",
-        "work_item_description": "Built a line chart tool with LayerCake allowing users to compare medical debt in different counties and states."
+        "work_item_description": "Built a line chart tool with LayerCake allowing users to compare medical debt in different counties and states.",
+        "work_item_image": "medical-debt.png"
       },
       {
         "work_item_title": "Does SNAP Cover the Cost of a Meal in Your County?",
         "work_item_date": "Published July 2023, updated May 2024",
         "work_item_link": "https://www.urban.org/data-tools/does-snap-cover-cost-meal-your-county-2022",
-        "work_item_description": "Built a map with D3 that shows the difference nationwide between SNAP prices and the average cost of a moderate meal in each county."
+        "work_item_description": "Built a map with D3 that shows the difference nationwide between SNAP prices and the average cost of a moderate meal in each county.",
+        "work_item_image": "snap-map.png"
       },
       {
         "work_item_title": "How School Officials and Housing Developers Can Partner to Desegregate Communities",
         "work_item_date": "Published April 2024",
         "work_item_link": "https://housingmatters.urban.org/feature/school-housing-partnership-desegregate-communities",
-        "work_item_description": "Built a map, chart, and takeaway data tool using Svelte, LayerCake, and MapBox showing how racial disparities in housing affect local schools."
+        "work_item_description": "Built a map, chart, and takeaway data tool using Svelte, LayerCake, and MapBox showing how racial disparities in housing affect local schools.",
+        "work_item_image": "presung.png"
       },
       {
         "work_item_title": "Supporting Women of Color Experiencing Homelessness as Individuals in Los Angeles ",
         "work_item_date": "Published March 2024",
         "work_item_link": "https://www.urban.org/stories/supporting-women-color-experiencing-homelessness-individuals-los-angeles",
-        "work_item_description": "Built several charts with Datawrapper to support each section of a feature."
+        "work_item_description": "Built several charts with Datawrapper to support each section of a feature.",
+        "work_item_image": "lawna.png"
       },
       {
         "work_item_title": "The Special Purpose Credit Program Data Toolkit",
         "work_item_date": "Published March 2024",
         "work_item_link": "https://www.urban.org/projects/special-purpose-credit-program-data-toolkit",
-        "work_item_description": "Built a set of automatically generated factsheets and charts displaying credit and wealth statistics for 50 major cities."
+        "work_item_description": "Built a set of automatically generated factsheets and charts displaying credit and wealth statistics for 50 major cities.",
+        "work_item_image": "spcp.png"
       },
       {
         "work_item_title": "Housing First Is Still the Best Approach to Ending Homelessness",
         "work_item_date": "Published February 2024",
         "work_item_link": "https://housingmatters.urban.org/feature/housing-first-still-best-approach-ending-homelessness",
-        "work_item_description": "Built comprehensive charts with Datawrapper to back each simple point in an enhanced blog post."
+        "work_item_description": "Built comprehensive charts with Datawrapper to back each simple point in an enhanced blog post.",
+        "work_item_image": "housing-first.png"
       },
       {
         "work_item_title": "Mapping Neighborhoods with the Highest Risk of Housing Instability and Homelessness",
         "work_item_date": "Published July 2023",
         "work_item_link": "https://www.urban.org/data-tools/mapping-neighborhoods-highest-risk-housing-instability-and-homelessness",
-        "work_item_description": "Built a map tool in MpaBox that highlights where in each state is most in need of housing aid."
+        "work_item_description": "Built a map tool in MpaBox that highlights where in each state is most in need of housing aid.",
+        "work_item_image": "erap.png"
       },
       {
         "work_item_title": "The Promise and Pitfalls of the Washington, DC, Region’s Strong Capital Flows",
@@ -65,8 +73,8 @@
     "work_location": "USA TODAY Network's Storytelling Studio",
     "work_time": "June 2022 to December 2022",
     "work_role": "Software developer",
-    "work description": "I made scrolling narratives with maps and 3D models, crafted interactive maps with Mapbox and built components to enhance web presentations.",
-    "work items": [
+    "work_description": "I made scrolling narratives with maps and 3D models, crafted interactive maps with Mapbox and built components to enhance web presentations.",
+    "work_items": [
       {
         "work_item_title": "What happens if a dam fails? An inside look at one city’s nightmare scenario",
         "work_item_date": "Published November 2022",
@@ -116,8 +124,8 @@
     "work_location": "The Howard Center for Investigative Journalism",
     "work_time": "December 2020 to April 2022",
     "work_role": "Data Fellow",
-    "work description": "I worked on data, graphics and news applications for this highly collaborative newsroom. The Howard Center is hosted through the University of Maryland. ",
-    "work items": [
+    "work_description": "I worked on data, graphics and news applications for this highly collaborative newsroom. The Howard Center is hosted through the University of Maryland. ",
+    "work_items": [
       {
         "work_item_title": "Mega Millions: The Lottery on Your Block",
         "work_item_date": "Published July 2022",
@@ -142,8 +150,8 @@
     "work_location": "Capital News Service - Annapolis Bureau",
     "work_time": "September to December 2021",
     "work_role": "Health and Business Data Reporter",
-    "work description": "Capital News Service-Annapolis covers state news out of Maryland State House. I live-tweeted Gov. Larry Hogan's pressers and the assembly's special sessions for daily stories, but I also worked out longer data stories with deeply human connections based on the odd press release or tip. This full-time, four-day-per-week wire service is run as a semester-long class through the University of Maryland.",
-    "work items": [
+    "work_description": "Capital News Service-Annapolis covers state news out of Maryland State House. I live-tweeted Gov. Larry Hogan's pressers and the assembly's special sessions for daily stories, but I also worked out longer data stories with deeply human connections based on the odd press release or tip. This full-time, four-day-per-week wire service is run as a semester-long class through the University of Maryland.",
+    "work_items": [
       {
         "work_item_title": "Pandemic financially devestated minority-led nonprofits",
         "work_item_date": "Published Dec. 8, 2021",
@@ -198,8 +206,8 @@
     "work_location": "College Park Here & Now",
     "work_time": "June 2020 to September 2021",
     "work_role": "Staff Writer",
-    "work description": "I wrote human-focused stories, took photographs and delivered papers for this fledgling community newspaper.",
-    "work items": [
+    "work_description": "I wrote human-focused stories, took photographs and delivered papers for this fledgling community newspaper.",
+    "work_items": [
       {
         "work_item_title": "Paint Branch proposal may upend local golf experience",
         "work_item_date": "Published June 2021",
@@ -246,8 +254,8 @@
     "work_location": "The Daily American / Our Town, Johnstown",
     "work_time": "May 2017 to October 2018",
     "work_role": "Stringer",
-    "work description": "I worked for both The Daily American (Somerset County, PA), and its offshoot paper Our Town, Johnstown (PA), while I was in undergrad. I covered features and news on both daily and weekly deadlines. My stories ranged from covering city council financial audits of the worst-off metropolis in PA to covering summer fairs organized by all the churches in a small town. See my complete authorship on the DA's webpage.",
-    "work items": [
+    "work_description": "I worked for both The Daily American (Somerset County, PA), and its offshoot paper Our Town, Johnstown (PA), while I was in undergrad. I covered features and news on both daily and weekly deadlines. My stories ranged from covering city council financial audits of the worst-off metropolis in PA to covering summer fairs organized by all the churches in a small town. See my complete authorship on the DA's webpage.",
+    "work_items": [
       {
         "work_item_title": "All Daily American and Our Town coverage",
         "work_item_link": "https://www.dailyamerican.com/search/?q=%22rachel%20logan%22&page=1"
