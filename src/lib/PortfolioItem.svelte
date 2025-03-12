@@ -8,28 +8,45 @@
   } = $props();
 </script>
 
-<div>
-  <a
-    class="item {work_item_image ? 'imaged' : ''}"
-    style={work_item_image ? "--image-url: url(images/" + work_item_image + ")" : ""}
-    href={work_item_link}
-  >
-  </a>
-  <h3>{work_item_title}</h3>
-  <p class="date">{work_item_date}</p>
-  <p>{work_item_description}</p>
-</div>
+{#if work_item_image}
+  <div>
+    <a
+      class="item {work_item_image ? 'imaged' : ''}"
+      style={work_item_image ? "--image-url: url(images/" + work_item_image + ")" : ""}
+      href={work_item_link}
+    >
+    </a>
+    <h3>{work_item_title}</h3>
+    <p class="date">{work_item_date}</p>
+    <p>{work_item_description}</p>
+  </div>
+{:else}
+  <div>
+    <a class="item tinted" href={work_item_link}>
+      <h3>{work_item_title}</h3>
+      <p class="date">{work_item_date}</p>
+      <p>{work_item_description}</p>
+    </a>
+  </div>
+{/if}
 
 <style>
   .item {
     border-radius: 15px;
-    height: 260px;
+    height: 280px;
     width: 100%;
     cursor: pointer;
     display: inline-block;
     background-color: var(--color-coral);
     outline: 1px solid var(--color-pumpkin);
     border: none;
+    &.tinted {
+      background-color: transparent;
+      & > h3,
+      & > p {
+        padding: 0px 20px;
+      }
+    }
 
     &.imaged {
       background-image: var(--image-url);

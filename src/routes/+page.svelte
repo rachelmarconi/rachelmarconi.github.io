@@ -10,20 +10,30 @@
   <div id="page-body">
     <div class="hello">
       <div id="body-bio">
-        <h1>Hello!</h1>
+        <h1>Hello! I'm Rachel, an interactives designer and developer.</h1>
         <p>
-          I'm an eager programmer who loves chewing on complex problems, and I'm also deeply
-          interested in human stories. I dance along a spectrum from journalism to programming,
-          sometimes as a full-time stringer and sometimes as purely a software developer. I've had
-          the most fun in the middle: I've crafted deep-dive data stories, relying on R skills to
-          bolster my conclusions, and I've built web components for huge news networks, taking
-          requests from editors.
+          I chew on complex problems. I make data human-legible and local-relatable. I love to learn
+          new things and stretch the limits of what's doable.
+        </p>
+        <p>
+          Most recently, I built interactive visuals for the Urban Institute, a nonprofit in the
+          policy research space. I worked on large data explorers and dashboards on teams with
+          writers and designers, mid-sized rapid response features on a tight budget and timetable,
+          and small, one-off charts and tables in Datawrapper for a quick-learning blog team.
+        </p>
+        <p>
+          I got my start as a city council reporter with a computer engineering degree in rural
+          Pennsylvania, then got a master's in journalism with a focus in data and web development,
+          simultaneously covering health, business, and local life in Maryland. I made interactive
+          experiences at USATODAY out of grad school before two years working with Svelte 4 and 5 at
+          Urban.
+        </p>
+        <p>
+          I'm eager to dive into important work building ways for folk to understand the issues
+          around them. I'm invested in humans. And the work is worth it.
         </p>
 
-        <p>
-          I love local news and empowering residents to take action and stay informed in their local
-          communities. I also love to hike and am always looking for a new niche cafe!
-        </p>
+        <p></p>
         <h2>It's great to meet you!</h2>
       </div>
 
@@ -32,22 +42,25 @@
         <div id="body-best-links">
           <a
             class="work-sample-box"
-            href="https://www.urban.org/data-tools/does-snap-cover-cost-meal-your-county-2022"
-            target="_blank">Does SNAP Cover the Cost of a Meal in Your County?</a
+            href="https://www.urban.org/research/publication/what-financial-risk-nonprofits-losing-government-grants"
+            target="_blank"
+            >What Is the Financial Risk of Nonprofits Losing Government Grants?
+          </a>
+          <a
+            class="work-sample-box"
+            href="https://apps.urban.org/features/medical-debt-over-time/"
+            target="_blank">The Changing Medical Debt Landscape in the United States</a
           >
           <a
             class="work-sample-box"
-            href="https://www.urban.org/data-tools/mapping-neighborhoods-highest-risk-housing-instability-and-homelessness"
+            href="https://housingmatters.urban.org/feature/school-housing-partnership-desegregate-communities"
             target="_blank"
-            >Mapping Neighborhoods with the Highest Risk of Housing Instability and Homelessness</a
-          >
-          <a
-            class="work-sample-box"
-            href="https://www.usatoday.com/in-depth/news/investigations/2022/11/16/crumbling-dams-rising-rain-flood-weather-simulation-oklahoma-city/10662580002/"
-            target="_blank"
-            >What happens if a dam fails? An inside look at one city’s nightmare scenario</a
+            >How School Officials and Housing Developers Can Partner to Desegregate Communities</a
           >
         </div>
+        <br />
+        <h3 class="bumped">Want to work with me? Get in touch</h3>
+        <p class="bumped">Email me at RachelMarconi256 at gmail dot com</p>
       </div>
     </div>
     <WorkGrid />
@@ -57,8 +70,7 @@
 <style>
   .hello {
     display: flex;
-    height: 60vh;
-    margin: 250px 0;
+    margin: 50px 0;
     gap: 60px;
     @media screen and (max-width: 800px) {
       flex-direction: column;

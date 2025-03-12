@@ -55,16 +55,6 @@
     }
   }
 
-  #banner-image {
-    width: 40px;
-    margin-right: 10px;
-  }
-
-  #banner-image img {
-    width: 100%;
-    border-radius: 50%;
-  }
-
   #menu-bar {
     width: 100%;
     background-color: var(--color-ketchup);
@@ -108,8 +98,8 @@
 
   @media screen and (max-width: 620px) {
     #menu-bar {
+      height: fit-content;
       flex-wrap: wrap;
-      height: 75px;
     }
   }
 </style>

@@ -3,7 +3,8 @@
   import PortfolioItem from "./PortfolioItem.svelte";
 </script>
 
-<div class="container" id="portfolio">
+<div class="container">
+  <h1 id="portfolio">My work</h1>
   {#each data.all_work as { work_location, work_time, work_role, work_description, work_items }}
     {#if work_items}
       <div class="section">
@@ -38,7 +39,12 @@
       grid-template-columns: 1fr;
     }
   }
-  .section {
+
+  h1 {
+    margin-top: 230px;
+    padding-top: 100px;
+  }
+  .section:not(:first-of-type) {
     margin-top: 150px;
   }
 </style>

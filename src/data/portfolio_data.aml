@@ -6,6 +6,12 @@
     work_description: I worked with Svelte and D3 to make interactive maps and charts explaining our policy center research to experts.
     [.work_items]
       
+        work_item_title: What Is the Financial Risk of Nonprofits Losing Government Grants? 
+        work_item_date: Published February 21, 2025
+        work_item_link: https://www.urban.org/research/publication/what-financial-risk-nonprofits-losing-government-grants
+        work_item_description: Built a map for state navigation alongside an R-script-iterated set of tables with a heat map column.
+        work_item_image: financial-risk.png
+
         work_item_title: Debt in America: An Interactive Map
         work_item_date: Published October 2023, updated September 2024
         work_item_link: https://apps.urban.org/features/debt-interactive-map/?type=overall&variable=totcoll
