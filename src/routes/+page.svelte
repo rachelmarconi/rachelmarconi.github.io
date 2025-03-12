@@ -100,49 +100,9 @@
     transition: ease 250ms;
   }
 
-  /* @media only screen and (max-width: 750px){
-	#page-body{
-		flex-direction: row;
-	}
-	#body-bio{
-		border-width: 0px 1px;
-		padding: 0px 20px;
-	}
-	#body-best-links{
-		padding-left: 20px;
-		padding-top: 0px;
-	}
-} */
-
   @media only screen and (max-width: 760px) {
     #page-body {
       flex-direction: column;
-    }
-    #hero {
-      grid-template-columns: 0.25fr 1fr 0.25fr;
-      grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
-    }
-    #hero-image {
-      grid-row: 2;
-      grid-column: 2;
-      padding-top: 30px;
-      padding-right: 0px;
-    }
-    #hero-image img {
-      max-width: 300px;
-    }
-    #hero-text {
-      grid-row: 3;
-      grid-column: 2;
-      align-content: start;
-      text-align: center;
-      margin-left: 0px;
-    }
-    #hero-text_big {
-      font-size: 2.25em;
-    }
-    #hero-text_small {
-      font-size: 1.75em;
     }
     #body-bio {
       border-width: 1px 0px;

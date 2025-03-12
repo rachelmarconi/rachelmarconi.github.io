@@ -1,24 +1,29 @@
 import adapter from "@sveltejs/adapter-static";
-import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
+
+const dev = process.argv.includes("dev");
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  preprocess: vitePreprocess(),
   kit: {
-    adapter: adapter(),
+    adapter: adapter({
+      pages: "dist",
+      assets: "dist",
+      fallback: null,
+      precompress: false,
+      strict: true
+    }),
     alias: {
       "$components/*": "./src/lib/components/*",
       "$data/*": "./src/data/*",
       "$assets/*": "./src/assets/*",
       "$stores/*": "./src/lib/stores/*",
-      "$utils/*": "./src/lib/utils/*",
+      "$utils/*": "./src/lib/utils/*"
     },
     paths: {
-      base: process.env.NODE_ENV === 'production' ? process.env.BASE_PATH : '',
-      //base: process.env.NODE_ENV === 'production' ? '/rachelmarconi.github.io' : '',
+      base: dev ? "" : process.env.BASE_PATH,
       relative: false
-    },
-  },
+    }
+  }
 };
 
 export default config;

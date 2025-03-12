@@ -96,7 +96,7 @@
       
         work_item_title: Prince George's County Pharmacy Deserts
         work_item_date: Completed December 2021
-        work_item_link: /portfolio/pharmacy-deserts
+        work_item_link: 
         work_item_local_link: true
         work_item_description: I categorized census tracts by their demographics and walking and driving distance to pharmacies.
 
@@ -231,7 +231,7 @@
     work_time: September 2015 to March 2019
     work_role: Page editor, copy editor, staff writer
     work description: I worked for The Advocate, the student newspaper at Pitt-Johnstown, for all four years of my undergraduate program. I started as a copy editor, but quickly moved to Opinions Editor and qualified for staff writer. I served as News Editor and then Features Editor for a semester each, learning to cover student government meetings, police citations and construction articles. See my complete authorship on the Advocate's webpage.
-    [.work items]
+    [.work_items]
     
         work_item_title: All Advocate coverage
         work_item_link: https://upj-advocate.com/staff_name/rachel-logan/

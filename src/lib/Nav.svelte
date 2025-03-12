@@ -11,7 +11,7 @@
     <a class="menu-item {current_page == 'index' ? 'current' : ''}" href="{base}/" id="menu-first"
       >Home</a
     >
-    <a class="menu-item {current_page == 'portfolio' ? 'current' : ''}" href="{base}/portfolio"
+    <a class="menu-item {current_page == 'portfolio' ? 'current' : ''}" href="#portfolio"
       >Portfolio</a
     >
     <a class="menu-item" href="https://twitter.com/arobotwriting" target="_blank">Twitter</a>
@@ -27,6 +27,8 @@
 <style>
   #top {
     width: 100%;
+    position: sticky;
+    top: 0;
   }
 
   #banner {

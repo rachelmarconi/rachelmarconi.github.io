@@ -1,11 +1,9 @@
 <script>
   import data from "$data/portfolio_data.aml";
   import PortfolioItem from "./PortfolioItem.svelte";
-
-  $inspect(data.all_work);
 </script>
 
-<div class="container">
+<div class="container" id="portfolio">
   {#each data.all_work as { work_location, work_time, work_role, work_description, work_items }}
     {#if work_items}
       <div class="section">
