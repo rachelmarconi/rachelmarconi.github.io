@@ -50,6 +50,9 @@ h3 {
   @media screen and (max-width: 1220px) {
     margin: 0px 60px;
   }
+  @media screen and (max-width: 600px) {
+    margin: 0px 30px;
+  }
 }
 
 .page-flex {

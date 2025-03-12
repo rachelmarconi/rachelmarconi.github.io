@@ -42,6 +42,9 @@
     border: none;
     &.tinted {
       background-color: transparent;
+      display: block;
+      height: fit-content !important;
+      padding: 20px 0px;
       & > h3,
       & > p {
         padding: 0px 20px;
