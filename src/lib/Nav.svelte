@@ -28,6 +28,7 @@
   #top {
     width: 100%;
     position: sticky;
+    z-index: 3;
     top: 0;
   }
 

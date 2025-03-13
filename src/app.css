@@ -20,6 +20,9 @@ a {
   font-size: 16px;
   font-weight: 600;
   line-height: 1.35em;
+  @media screen and (max-width: 600px) {
+    font-size: 14px;
+  }
 }
 p {
   color: var(--color-forest-green);
@@ -27,6 +30,9 @@ p {
   font-size: 16px;
   font-weight: 600;
   line-height: 1.35em;
+  @media screen and (max-width: 600px) {
+    font-size: 14px;
+  }
 }
 h1,
 h2,
@@ -35,11 +41,23 @@ h3 {
   font-weight: normal;
   line-height: 1.25em;
 }
+h1 {
+  font-size: 36px;
+  @media screen and (max-width: 600px) {
+    font-size: 30px;
+  }
+}
 h2 {
   font-size: 28px;
+  @media screen and (max-width: 600px) {
+    font-size: 22px;
+  }
 }
 h3 {
   font-size: 20px;
+  @media screen and (max-width: 600px) {
+    font-size: 18px;
+  }
 }
 
 #page-body {
@@ -51,7 +69,7 @@ h3 {
     margin: 0px 60px;
   }
   @media screen and (max-width: 600px) {
-    margin: 0px 30px;
+    margin: 0px 40px;
   }
 }
 

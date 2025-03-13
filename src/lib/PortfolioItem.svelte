@@ -11,6 +11,7 @@
 {#if work_item_image}
   <div>
     <a
+      aria-label="Click to view {work_item_title}"
       class="item {work_item_image ? 'imaged' : ''}"
       style={work_item_image ? "--image-url: url(images/" + work_item_image + ")" : ""}
       href={work_item_link}
@@ -22,7 +23,7 @@
   </div>
 {:else}
   <div>
-    <a class="item tinted" href={work_item_link}>
+    <a class="item tinted" href={work_item_link} aria-label="Click to view {work_item_title}">
       <h3>{work_item_title}</h3>
       <p class="date">{work_item_date}</p>
       <p>{work_item_description}</p>

@@ -25,8 +25,8 @@
           I got my start as a city council reporter with a computer engineering degree in rural
           Pennsylvania, then got a master's in journalism with a focus in data and web development,
           simultaneously covering health, business, and local life in Maryland. I made interactive
-          experiences at USATODAY out of grad school before two years working with Svelte 4 and 5 at
-          Urban.
+          experiences at USA TODAY out of grad school before two years working with Svelte 4 and 5
+          at Urban.
         </p>
         <p>
           I'm eager to dive into important work building ways for folk to understand the issues
@@ -44,18 +44,37 @@
             class="work-sample-box"
             href="https://www.urban.org/research/publication/what-financial-risk-nonprofits-losing-government-grants"
             target="_blank"
-            >What Is the Financial Risk of Nonprofits Losing Government Grants?
+          >
+            <div
+              class="link-pic"
+              style="background-image: url(images/financial-risk.png);"
+              aria-label="What Is the Financial Risk of Nonprofits Losing Government Grants?"
+            ></div>
+            What Is the Financial Risk of Nonprofits Losing Government Grants?
           </a>
           <a
             class="work-sample-box"
             href="https://apps.urban.org/features/medical-debt-over-time/"
-            target="_blank">The Changing Medical Debt Landscape in the United States</a
+            target="_blank"
+          >
+            <div
+              class="link-pic"
+              style="background-image: url(images/medical-debt.png);"
+              aria-label="The Changing Medical Debt Landscape in the United States"
+            ></div>
+            The Changing Medical Debt Landscape in the United States</a
           >
           <a
             class="work-sample-box"
             href="https://housingmatters.urban.org/feature/school-housing-partnership-desegregate-communities"
             target="_blank"
-            >How School Officials and Housing Developers Can Partner to Desegregate Communities</a
+          >
+            <div
+              class="link-pic"
+              style="background-image: url(images/presung.png);"
+              aria-label="How School Officials and Housing Developers Can Partner to Desegregate Communities"
+            ></div>
+            How School Officials and Housing Developers Can Partner to Desegregate Communities</a
           >
         </div>
         <br />
@@ -71,14 +90,18 @@
   .hello {
     display: flex;
     margin: 50px 0;
+    height: calc(100vh - 150px - 100px);
+    align-items: center;
     gap: 60px;
     @media screen and (max-width: 800px) {
       flex-direction: column;
       gap: 0px;
+      height: fit-content;
     }
   }
   #body-bio {
     flex: 1;
+    height: fit-content;
   }
   .bumped {
     margin-left: 20px;
@@ -89,8 +112,15 @@
   .links {
     flex: 1;
     margin-top: 60px;
+    height: fit-content;
   }
-
+  .link-pic {
+    width: 70px;
+    min-height: 50px;
+    background-size: cover;
+    display: inline-block;
+    flex-shrink: 0;
+  }
   #body-best-links {
     display: flex;
     flex-direction: column;
@@ -103,6 +133,10 @@
   .work-sample-box {
     padding: 10px 20px;
     flex: 1;
+    align-items: center;
+    display: flex;
+    height: fit-content;
+    gap: 10px;
     outline: 0px solid var(--color-pumpkin);
   }
 
