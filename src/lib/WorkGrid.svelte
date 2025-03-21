@@ -93,6 +93,9 @@
     @media screen and (max-width: 750px) {
       grid-template-columns: 1fr;
     }
+    @media screen and (max-width: 450px) {
+      row-gap: 30px;
+    }
   }
 
   h1 {
