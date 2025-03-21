@@ -175,7 +175,7 @@
     outline: 1px solid var(--color-pumpkin);
     transition: 250ms ease;
     &:hover,
-    :focus-visible {
+    &:focus-visible {
       transform: translateX(-12px);
       outline: 3px solid var(--color-pumpkin);
       @media (prefers-reduced-motion) {
