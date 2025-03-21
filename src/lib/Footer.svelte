@@ -18,5 +18,6 @@
   #footer p {
     text-align: center;
     color: white;
+    margin: 8px 0px;
   }
 </style>

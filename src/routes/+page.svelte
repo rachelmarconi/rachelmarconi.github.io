@@ -1,4 +1,5 @@
 <script>
+  import GoIcon from "$lib/GoIcon.svelte";
   import Nav from "$lib/Nav.svelte";
   import WorkGrid from "$lib/WorkGrid.svelte";
   console.log("👋 Welcome to Rachel's website!");
@@ -38,7 +39,7 @@
       </div>
 
       <div class="links">
-        <h3 class="bumped">Quick look at my work</h3>
+        <h3 class="">Quick look at my work</h3>
         <div id="body-best-links">
           <a
             class="work-sample-box"
@@ -78,8 +79,23 @@
           >
         </div>
         <br />
-        <h3 class="bumped">Want to work with me? Get in touch</h3>
-        <p class="bumped">Email me at RachelMarconi256 at gmail dot com</p>
+        <h3 class="">Want to work with me? Get in touch</h3>
+        <p class="">Email me at RachelMarconi256 at gmail dot com</p>
+        <div class="icon-button-row">
+          <a
+            class="btn-contact-me"
+            href="https://www.linkedin.com/in/rachel-marconi-a72258118/"
+            target="_blank"
+          >
+            LinkedIn <GoIcon color="var(--color-coral)" />
+          </a>
+          <a class="btn-contact-me" href="https://github.com/rachelmarconi" target="_blank">
+            GitHub <GoIcon color="var(--color-coral)" />
+          </a>
+          <a class="btn-contact-me" href="https://twitter.com/arobotwriting" target="_blank">
+            Twitter <GoIcon color="var(--color-coral)" />
+          </a>
+        </div>
       </div>
     </div>
     <WorkGrid />
@@ -89,10 +105,10 @@
 <style>
   .hello {
     display: flex;
-    margin: 50px 0;
-    height: calc(100vh - 150px - 100px);
+    margin-top: 15%;
+    /* height: calc(100vh - 150px - 100px); */
     align-items: center;
-    gap: 60px;
+    gap: 80px;
     @media screen and (max-width: 800px) {
       flex-direction: column;
       gap: 0px;
@@ -103,12 +119,7 @@
     flex: 1;
     height: fit-content;
   }
-  .bumped {
-    margin-left: 20px;
-    @media screen and (max-width: 800px) {
-      margin-left: 0px;
-    }
-  }
+
   .links {
     flex: 1;
     margin-top: 60px;
@@ -130,6 +141,30 @@
     } */
   }
 
+  .icon-button-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 20px;
+  }
+  .btn-contact-me {
+    outline: 1px solid var(--color-pumpkin);
+    transition: 250ms;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    &:hover,
+    &:focus-visible {
+      outline: 3px solid var(--color-pumpkin);
+      transform: translateY(12px);
+      @media (prefers-reduced-motion) {
+        transform: none;
+      }
+    }
+  }
+
   .work-sample-box {
     padding: 10px 20px;
     flex: 1;
@@ -137,13 +172,16 @@
     display: flex;
     height: fit-content;
     gap: 10px;
-    outline: 0px solid var(--color-pumpkin);
-  }
-
-  .work-sample-box:hover,
-  .work-sample-box:focus-visible {
-    outline: 3px solid var(--color-pumpkin);
-    transition: ease 250ms;
+    outline: 1px solid var(--color-pumpkin);
+    transition: 250ms ease;
+    &:hover,
+    :focus-visible {
+      transform: translateX(-12px);
+      outline: 3px solid var(--color-pumpkin);
+      @media (prefers-reduced-motion) {
+        transform: none;
+      }
+    }
   }
 
   @media only screen and (max-width: 760px) {

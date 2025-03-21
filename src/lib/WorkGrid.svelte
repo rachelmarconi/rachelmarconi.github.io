@@ -19,6 +19,9 @@
   </p>
   <br />
   {#each data.all_work as { work_location, work_time, work_role, work_description, work_items }, sectionID}
+    {#if sectionID != data.all_work.length && sectionID != 0}
+      <div class="section-break"></div>
+    {/if}
     {#if work_items}
       <div class="section">
         <div class="icon">
@@ -39,10 +42,11 @@
           {work_role}
           {work_role ? "|" : ""}
           {work_location}
-          {work_time ? "|" : ""}
-          {work_time}
         </h2>
+        <h3>{work_time}</h3>
+
         <p>{work_description}</p>
+        <br /><br />
         {#if openSectionID == sectionID}
           <div class="grid" transition:slide={{ duration: 400 }}>
             {#each work_items as { work_item_title, work_item_date, work_item_link, work_item_description, work_item_image }}
@@ -64,11 +68,16 @@
 <style>
   .section {
     position: relative;
+    margin-bottom: 20px;
+  }
+  .section-break {
+    padding-top: 50px;
+    border-top: 1px solid var(--color-forest-green);
   }
   .icon {
     position: absolute;
     left: -35px;
-    top: 3px;
+    top: 2px;
     height: 30px;
     width: 30px;
   }
@@ -92,8 +101,5 @@
     @media screen and (max-width: 510px) {
       padding-top: 140px;
     }
-  }
-  .section:not(:first-of-type) {
-    margin-top: 150px;
   }
 </style>

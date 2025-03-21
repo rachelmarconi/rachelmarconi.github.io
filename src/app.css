@@ -9,6 +9,7 @@ body {
   --color-coral: #ffa38f;
   --color-pumpkin: #f2bc46;
   --color-tan: #fff1e8;
+  --color-moss: #1e3329;
 
   background-color: var(--color-tan);
 }
@@ -25,7 +26,7 @@ a {
   }
 }
 p {
-  color: var(--color-forest-green);
+  color: var(--color-moss);
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
   font-weight: 600;

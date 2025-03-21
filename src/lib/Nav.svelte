@@ -1,6 +1,6 @@
 <script>
   import { base } from "$app/paths";
-  export let current_page = "index";
+  import GoIcon from "./GoIcon.svelte";
 </script>
 
 <div id="top">
@@ -8,18 +8,19 @@
     <a id="banner-name" href="{base}/"><h2>Rachel Marconi</h2></a>
   </div>
   <div id="menu-bar">
-    <a class="menu-item {current_page == 'index' ? 'current' : ''}" href="{base}/" id="menu-first"
-      >Home</a
-    >
-    <a class="menu-item {current_page == 'portfolio' ? 'current' : ''}" href="#portfolio"
-      >Portfolio</a
-    >
-    <a class="menu-item" href="https://twitter.com/arobotwriting" target="_blank">Twitter</a>
-    <a class="menu-item" href="https://github.com/rachelmarconi" target="_blank">GitHub</a>
+    <a class="menu-item" href="{base}/" id="menu-first">Home</a>
+    <a class="menu-item" href="#portfolio">Portfolio</a>
     <a
       class="menu-item"
       href="https://www.linkedin.com/in/rachel-marconi-a72258118/"
-      target="_blank">LinkedIn</a
+      target="_blank">LinkedIn <GoIcon /></a
+    >
+    <a class="menu-item" href="https://github.com/rachelmarconi" target="_blank"
+      >GitHub <GoIcon /></a
+    >
+
+    <a class="menu-item" href="https://twitter.com/arobotwriting" target="_blank"
+      >Twitter <GoIcon /></a
     >
   </div>
 </div>
@@ -72,25 +73,20 @@
     padding: 7px 15px;
     transition: 300ms ease-in-out;
     cursor: pointer;
-  }
-
-  .menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    height: 24px;
     color: white;
     outline: 0px solid var(--color-pumpkin);
-  }
-
-  .menu-item:focus-visible,
-  .menu-item:hover {
-    background-color: var(--color-coral);
-    outline: 3px solid var(--color-pumpkin);
-    color: black !important;
-    /* border-bottom: solid 2px white !important; green */
-  }
-
-  .menu-item.current {
-    background-color: var(--color-coral);
-    border-bottom: solid 3px var(--color-pumpkin);
-    color: black !important;
+    &:hover,
+    &:focus-visible {
+      background-color: var(--color-coral);
+      outline: 3px solid var(--color-pumpkin);
+      color: black !important;
+      /* border-bottom: solid 2px white !important; green */
+    }
   }
 
   #menu-first {
